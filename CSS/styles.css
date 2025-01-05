@@ -37,7 +37,10 @@ a {
 .main-link:active {
   color: #404bbf;
 }
-.contact-info .menu > li > a {
+.contact-info {
+  font-style: normal;
+}
+.contact-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -45,20 +48,21 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-info .menu > li > a:hover {
+.contact-link:hover {
   color: #404bbf;
 }
 .section-hero {
   background-color: #2e2f42;
 }
-.section-hero .title {
+.title {
+  text-align: center;
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 0.02em;
-  line-height: 60px;
+  line-height: 1.07;
   color: #fff;
 }
-.section-hero > button {
+.button {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -67,7 +71,7 @@ a {
   color: #fff;
   background-color: #4d5ae5;
 }
-.section-hero > button:hover {
+.button:hover {
   background-color: #404bbf;
 }
 .section-about .feature {
@@ -87,11 +91,12 @@ a {
 .section-team {
   background-color: #f4f4fd;
 }
-.section-team .title-two {
+.title-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
@@ -117,8 +122,9 @@ a {
 .title-three {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
 }
