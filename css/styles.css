@@ -31,10 +31,8 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.main-link:hover {
-  color: #404bbf;
-}
-.main-link:active {
+.main-link:hover,
+.main-link:focus {
   color: #404bbf;
 }
 .contact-info {
@@ -48,7 +46,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 .section-hero {
